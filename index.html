@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco</title>
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Font awesome-->
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="./bootstrap-5.3.3/css/bootstrap.min.css">
+    <!--Bootstrap-->
+    <!--Main CSS-->
+    <link rel="stylesheet" href="./CSS/main.css">
+    <!--Main CSS-->
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg shadow py-2 fixed-top" 
+    style="background-color: aqua !important;">
+        <div class="container-fluid">
+            <a href="#header" class="navbar-brand text-dark">
+                <img src="" alt="">
+                <span class="text-uppercase ms-2">eco</span>
+            </a>
+
+            <div class="mt-2 ms-2 order-lg-2 nav-btns">
+                <button class="btn position-relative" type="button">
+                 <i class="fa-solid fa-cart-shopping"></i>
+                 <span class="position-absolute top-0
+                 start-100 translate-middle  badge
+                 bg-primary ">5</span>    
+                </button>
+
+                <button class="btn position-relative" type="button">
+                    <i class="fa fa-heart"></i>
+                    <span class="position-absolute top-0
+                    start-100 translate-middle  badge
+                    bg-primary ">5</span>    
+                   </button>
+
+                   <button class="btn position-relative" type="button">
+                    <i class="fa fa-search"></i> 
+                   </button>
+            </div>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse order-lg-0" id="navMenu">
+                <ul class="navbar-nav mx-auto text-center fw-bold">
+                    <li class="nav-item px-2 py-2">
+                        <a href="#header" class="nav-link text-uppercase">Home</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a href="#collection" class="nav-link text-uppercase">collection</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a href="#specials" class="nav-link text-uppercase">specials</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a href="#printers" class="nav-link text-uppercase">3D Pinters</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a href="#about" class="nav-link text-uppercase">about us</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a href="#popular" class="nav-link text-uppercase">popular</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Header-->
+    <header id="header" class="vh-100 carousel slide"
+    db-bs-ride="carousel" style="padding-top: 104px;">
+        <div class="contaniter h-100 d-flex align-items-center carousel-inner">
+
+            <div class="text-center carousel-item active" style="transition: 0.5s !important;">
+                <h2 class="text-capitalize text-white">Best Collection</h2>
+                <h1 class="py-3 text-uppercase fw-bold text-white">
+                    new print avilable
+                </h1>
+                <a href="#" class="btn mt-3 text-uppercase">shop now</a>
+            </div>
+
+            <div class="text-center carousel-item" style="transition: 0.5s !important;">
+                <h2 class="text-capitalize text-white">Quality & Durability</h2>
+                <h1 class="py-3 text-uppercase fw-bold text-white">
+                    new offers
+                </h1>
+                <a href="#" class="btn mt-3 text-uppercase">buy now</a>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#header"
+        data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" type="button"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#header"
+        data-bs-slide="next">
+            <span class="carousel-control-next-icon" type="button"></span>
+        </button>
+    </header>
+
+    <!--Collection-->
+    <section id="collection" class="py-5">
+        <div class="container"></div>
+            <div class="title text-center">
+                <h2 class="position-relative d-inline-block">
+                    New collection
+                </h2>
+            </div>
+
+            <div class="row g-0">
+                <div class="d-flex flex-wrap justify-content-center mt-4">
+                    <button class="btn m-2">ALL</button>
+                    <button class="btn m-2">best sellers</button>
+                    <button class="btn m-2">Featured</button>
+                    <button class="btn m-2">New prints</button>
+                </div>
+            </div>
+
+            <div class="collection-list mt-4 row gx-0 gy-3">
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2 me-0">
+                    <div class="collection-img position-relative">
+                        <img src="./src/bshirt.png" alt=""
+                        class="w-100" style="border-radius: 20px;">
+                        <span class="position-absolute bg-green1
+                        justify-content-center align-items-center d-flex">
+                        Sale
+                        </span>
+                </div> 
+                <div class="text-center">
+                    <div class="rating mt-3">
+                        <span class="text-primary"><i class="fas fa-star"></i></span>
+                        <span class="text-primary"><i class="fas fa-star"></i></span>
+                        <span class="text-primary"><i class="fas fa-star"></i></span>
+                        <span class="text-primary"><i class="fas fa-star"></i></span>
+                        <span class="text-primary"><i class="fas fa-star"></i></span>
+                    </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <script src="./js/jquery-3.7.1.js"></script>
+    <script src="./bootstrap-5.3.3/js/bootstrap.min.js"></script>
+</body>
+</html>

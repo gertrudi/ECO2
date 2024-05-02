@@ -1,0 +1,26 @@
+.prueba{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    position: relative;
+    left: 0px;
+
+}
+
+.btn-bonito{
+    width: 100px;
+    height: 50px;
+    color: blueviolet;
+    transition: 0.5s;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+}
+
+.btn-bonito:hover{
+    color: rgb(255, 255, 255);
+    background-color: blueviolet;
+    transition: 0.5s;
+}
