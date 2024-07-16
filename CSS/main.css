@@ -59,3 +59,10 @@
         border-bottom: none;
     }
 }
+#offers{
+    background: url(../src/bg2.png) center/cover no-repeat;
+}
+#offers.row{
+    min-height: 60px;
+
+}
